@@ -10,4 +10,8 @@ function analyzeText() {
 
     let reversedText = text.split("").reverse().join("");
 
-    
+    document.getElementById("result").innerHTML =
+        "<p>Total Characters: " + charCount + "</p>" +
+        "<p>Total Words: " + wordCount + "</p>" +
+        "<p>Reversed Text: " + reversedText + "</p>";
+}
